@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(224, 155, 169, 0.801);
+            margin: 0px;
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: cornflowerblue;
+        }
+        article > aside {
+            background-color: coral;
+        }
+        nav {
+            background-color: brown;
+            padding: 3px;
+            font-weight: bold;
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            margin-right: 40px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus placeat impedit quis ducimus, ex repudiandae laborum assumenda corporis eaque modi id accusantium ipsa atque, commodi ea, recusandae repellat aspernatur architecto.</p>
+                    <aside>
+                    <p>Artigo escrito por fulano</p>
+                </aside>
+            </article>
+
+
+        </section>
+   
+    </main>
+    <footer>
+            <p>Desenvolvimento pelo Curso em Vídeo</p>
+    </footer>
+    
+</body>
+</html>
