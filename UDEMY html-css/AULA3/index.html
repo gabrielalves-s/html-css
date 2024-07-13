@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Formulários HTML</h2>
+    <!-- Primeiro formulário-->
+     <!-- Atributos no formulário-->
+    <form action="register.php" method="POST">
+        <div>
+            <label for="text">Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- Atributo name -->
+
+         <div>
+            <!--Atributo label (for)-->
+
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+         </div>
+
+         <!-- Elemento select -->
+          <div>
+            <label for="job">Selecione sua profissão:</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="devops">DevOps</option>
+            </select>
+          </div>
+          <!-- Atributo selected -->
+           <div>
+            <label for="contract">Você leu os termos do contrato? </label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="não" selected>Não</option>
+            </select>
+           </div>
+         <!-- Envio de formulário (botão de submit)-->
+          <input type="submit" value="Enviar">
+
+        <!-- Elemento select -->
+    </form>
+</body>
+</html>
