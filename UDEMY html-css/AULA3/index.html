@@ -42,10 +42,36 @@
                 <option value="não" selected>Não</option>
             </select>
            </div>
+
+         <!-- Múltiplas opções -->
+          <div>
+            <label for="items">Selecione os itens desejados:</label>
+            <select name="items" multiple>
+                <option value="pera">Pera</option>
+                <option value="feijao">Feijão</option>
+                <option value="arroz">Arroz</option>
+                <option value="milho">Milho</option>
+            </select>
+          </div>
          <!-- Envio de formulário (botão de submit)-->
           <input type="submit" value="Enviar">
 
-        <!-- Elemento select -->
+        <!-- Textarea -->
+         <div>
+            <label for="comment">Escreva abaixo o que você achou do post:</label>
+            <textarea name="comment"></textarea>
+         </div>
+
+         <!-- Fieldset e legend -->
+          <div>
+            <fieldset>
+                <legend>Preencha as suas informações:</legend>
+                <label for="firstname">Nome:</label>
+                <input type="text" name="firstname">
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname"
+            </fieldset>
+          </div>
     </form>
 </body>
 </html>
