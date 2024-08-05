@@ -59,6 +59,16 @@ section {
 
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
+section#img01 {
+background-image: url('../imagens/background001.jpg');
+
+section#img02 {
+    
+}
 
 
 section.normal {
