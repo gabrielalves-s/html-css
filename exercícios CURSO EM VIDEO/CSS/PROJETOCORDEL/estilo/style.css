@@ -65,9 +65,14 @@ section > p {
 
 section#img01 {
 background-image: url('../imagens/background001.jpg');
+background-position: right center;
+background-size: cover;
+
+}
 
 section#img02 {
-    
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
 }
 
 
@@ -79,6 +84,8 @@ section.normal {
 section.imagem {
     background-color: rgba(107, 14, 33, 0.556);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
 
     
 }
@@ -88,6 +95,7 @@ section.imagem > p {
     padding: 5px;
     width: 400px;
     background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 0px black;
 }
 
 
